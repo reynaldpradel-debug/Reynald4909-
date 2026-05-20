@@ -1,0 +1,1 @@
+// Select elementsconst title = document.  getElementById('title');const btn = document.  getElementById('btn');// Count clickslet clicks = 0;// Listen for clickbtn.addEventListener(  'click',  function() {    clicks++;    title.textContent =      'Clicked ' + clicks      + ' time(s)!';  });
